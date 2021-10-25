@@ -1,0 +1,90 @@
+*{
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden !important;
+    color: #000;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul
+{
+    list-style: none;
+}
+a,
+textarea:focus,
+input:focus,
+a:focus,
+i:focus,
+button:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    outline: 0px !important;
+}
+
+
+
+/* start form page */
+
+body.form-signin-body{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body.form-signin-body form.form-signin{
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-label-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+/* End form page */
+
+
+/*start result page */
+.result{
+    margin-top: 10px;
+}
+.result h3.TestResultHead{
+    color: #A94442;
+    font-weight: bold;
+}
+.result .form-label-group{
+    align-items: flex-start;
+}
+.result .company{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/*End result page */
+
+@media (max-width: 502px) {
+
+    h2.PatientHead {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
